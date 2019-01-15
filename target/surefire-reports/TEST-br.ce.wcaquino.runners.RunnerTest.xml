@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="76" failures="0" name="br.ce.wcaquino.runners.RunnerTest" time="0.023" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/wcaquino/Documents/dev/java/workspaceCurso/CursoCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/wcaquino/Documents/dev/java/workspaceCurso/CursoCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9v/190xzr9d70ggdm6rrx31cm980000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/wcaquino/Documents/dev/java/apache-maven-3.5.0/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/wcaquino/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/wcaquino/Documents/dev/java/apache-maven-3.5.0/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="library.jansi.path" value="/Users/wcaquino/Documents/dev/java/apache-maven-3.5.0/lib/jansi-native/osx64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/wcaquino"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="wcaquino"/>
+    <property name="java.class.path" value="/Users/wcaquino/Documents/dev/java/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/wcaquino/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/wcaquino/Documents/dev/java/apache-maven-3.5.0"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Dado um filme" time="0.003"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Quando alugar" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Então o preço do aluguel será R$ 3" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="E a data de entrega será em 1 dia" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="E o estoque do filme será 1 unidade" time="0"/>
+  <testcase classname="Cenário: Deve alugar um filme com sucesso" name="Cenário: Deve alugar um filme com sucesso" time="0.001"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Dado um filme com estoque de 0 unidades" time="0.003"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Quando alugar" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Então não será possível por falta de estoque" time="0.001"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="E o estoque do filme será 0 unidade" time="0"/>
+  <testcase classname="Cenário: Não deve alugar filme sem estoque" name="Cenário: Não deve alugar filme sem estoque" time="0.001"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E que o preço do aluguel seja R$ 4" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E que o tipo do aluguel seja extendido" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="Então o preço do aluguel será R$ 8" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E a data de entrega será em 3 dias" time="0.001"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="E a pontuação será de 2 pontos" time="0"/>
+  <testcase classname="| 4 | extendido | 8 | 3 | 2 |" name="| 4 | extendido | 8 | 3 | 2 |" time="0.002"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E que o preço do aluguel seja R$ 4" time="0.001"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E que o tipo do aluguel seja comum" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="Então o preço do aluguel será R$ 4" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E a data de entrega será em 1 dias" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="E a pontuação será de 1 pontos" time="0"/>
+  <testcase classname="| 4 | comum | 4 | 1 | 1 |" name="| 4 | comum | 4 | 1 | 1 |" time="0.001"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E que o preço do aluguel seja R$ 10" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E que o tipo do aluguel seja extendido" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="Então o preço do aluguel será R$ 20" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E a data de entrega será em 3 dias" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="E a pontuação será de 2 pontos" time="0"/>
+  <testcase classname="| 10 | extendido | 20 | 3 | 2 |" name="| 10 | extendido | 20 | 3 | 2 |" time="0.001"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Dado um filme com estoque de 2 unidades" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E que o preço do aluguel seja R$ 5" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E que o tipo do aluguel seja semanal" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Quando alugar" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="Então o preço do aluguel será R$ 15" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E a data de entrega será em 7 dias" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="E a pontuação será de 3 pontos" time="0"/>
+  <testcase classname="| 5 | semanal | 15 | 7 | 3 |" name="| 5 | semanal | 15 | 7 | 3 |" time="0.002"/>
+  <testcase classname="Cenário: Deve executar especificação" name="Dado que criei o arquivo corretamente" time="0"/>
+  <testcase classname="Cenário: Deve executar especificação" name="Quando executá-lo" time="0"/>
+  <testcase classname="Cenário: Deve executar especificação" name="Então a especificação deve finalizar com sucesso" time="0"/>
+  <testcase classname="Cenário: Deve executar especificação" name="Cenário: Deve executar especificação" time="0.004"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Dado que o valor do contador é 15" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Quando eu incrementar em 3" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Então o valor do contador será 18" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Cenário: Deve incrementar contador" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Dado que o valor do contador é 123" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Quando eu incrementar em 35" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Então o valor do contador será 158" time="0"/>
+  <testcase classname="Cenário: Deve incrementar contador" name="Cenário: Deve incrementar contador" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega" name="Dado que a entrega é dia 05/04/2018" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega" name="Quando a entrega atrasar em 2 dias" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega" name="Então a entrega será efetuada em 07/04/2018" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega" name="Cenário: Deve calcular atraso na entrega" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega da china" name="Dado que a entrega é dia 05/04/2018" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega da china" name="Quando a entrega atrasar em 2 meses" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega da china" name="Então a entrega será efetuada em 05/06/2018" time="0"/>
+  <testcase classname="Cenário: Deve calcular atraso na entrega da china" name="Cenário: Deve calcular atraso na entrega da china" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* que o ticket é AF345" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* que o valor da passagem é R$ 230,45" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* que o nome do passageiro é &quot;Fulano da Silva&quot;" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* que o telefone do passageiro é 9999-9999" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* criar os steps" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="* o teste vai funcionar" time="0"/>
+  <testcase classname="Cenário: Deve criar steps genéricos para estes passos" name="Cenário: Deve criar steps genéricos para estes passos" time="0.001"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Dado que o ticket é AB167" time="0"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Dado que o ticket especial é AB167" time="0"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Dado que o valor da passagem é R$ 1120,23" time="0"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Dado que o nome do passageiro é &quot;Cicrano de Oliveira&quot;" time="0"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Dado que o telefone do passageiro é 9888-8888" time="0"/>
+  <testcase classname="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Cenário: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" time="0.001"/>
+</testsuite>
